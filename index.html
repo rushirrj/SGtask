@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporty Guru</title>
+</head>
+<body>
+    <div id="main">
+        <div id="summary">
+           <h2>Today Summary is ready</h2> 
+        </div>
+
+        <h1 id="head">SPORTY</h1>
+        <div id="report">
+            <h3>Your Today Workout report</h3>
+            <p>Feb 12th - 2022</p>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>4</h2>
+                <span>Workout Done</span>
+    
+            </div>
+            <div class="grid-item">
+                <h2>3 HRS</h2>
+                <span>Workout Duration</span>
+            </div>
+            <div class="grid-item">
+                <h2>10:00 </h2>
+                <span>start time</span>
+            </div>
+            <div class="grid-item">
+                <h2>13:00</h2>
+                <span>Finish Time</span>
+            </div>
+        </div>
+        
+        <div id="text">
+           <h2>Today Exercises</h2> 
+        </div>
+        <div class="table">
+            <table style="width:100%">
+                <tr style="text-align: center;">
+                    <td><strong>1</strong></td>
+                    <td><strong>Dumbell Curl</strong></td>
+                    <td><strong>60 KG</strong></td>
+                    <td> <strong>3 reps</strong></td>
+                    <td><strong> 15Mins Rest</strong></td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><strong>1</strong></td>
+                    <td><strong>Dumbell Curl</strong></td>
+                    <td><strong>60 KG</strong></td>
+                    <td> <strong>3 reps</strong></td>
+                    <td><strong> 15Mins Rest</strong></td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><strong>1</strong></td>
+                    <td><strong>Dumbell Curl</strong></td>
+                    <td><strong>60 KG</strong></td>
+                    <td> <strong>3 reps</strong></td>
+                    <td><strong> 15Mins Rest</strong></td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><strong>1</strong></td>
+                    <td><strong>Dumbell Curl</strong></td>
+                    <td><strong>60 KG</strong></td>
+                    <td> <strong>3 reps</strong></td>
+                    <td><strong> 15Mins Rest</strong></td>
+                </tr>
+            </table>
+        </div>
+        <div class="feedback">
+            <h2 style="text-align: center;">Feedback</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+          
+        </div>
+        <div class="button">
+            <button>
+                <strong>Print</strong> 
+            </button>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    #main{
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    #summary{
+        color:white;
+        background-color: #ff0129ba;
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height:53px;    
+        
+    }
+    #head{
+        text-align: center;
+        margin-top:11px;
+        font-size: 21px;
+        margin-bottom: 0px;
+    }
+    #report{
+        text-align: center;
+        margin: 0px;
+    }
+    #report p{
+        margin-top: 0px;
+    }
+    #report h3{
+        margin-bottom: 3px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding: 10px;
+    }
+    .grid-item {
+        background-color: #f0ebebf6;
+        /* border: 1px solid rgba(0, 0, 0, 0.8); */
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 12px;
+    }
+    .grid-item h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    #text{
+        text-align: center;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    tr{
+        border-bottom: 1px dashed #ddd;
+        padding: 2px;
+    }
+    td{
+        padding: 13px;
+    }
+    .feedback h2{
+        margin-bottom: 0px;
+    }
+    .feedback p{
+        margin-top: 11px;
+        text-align: center;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#ff0129ba ;
+        border-radius: 6px;
+        border:0px ;
+        color: white;
+        height: 42px;
+        /* width: 250px; */
+        width:35%;
+        margin-bottom: 20px;
+    }
+    button strong{
+        font-size: 19px;
+    }
+</style>
